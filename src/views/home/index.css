@@ -1,0 +1,209 @@
+html, body {
+    font-family: 'Grandstander', cursive;
+    font-size: 16px;
+    scroll-padding-top: 83px;
+    scroll-behavior: smooth;
+}
+body.Lock {
+    overflow: hidden;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    height: 100%;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+    display: flex
+
+}
+
+
+header {
+    /* Цвет бэкграунда, без картинки*/
+    background: aqua;
+    /*картинка бэкграунда*/
+    background-image: url("assets/ForestSun.jpg");
+    /*Команда, чтобы картинка не повторялась, а растягивалась*/
+    background-repeat: no-repeat;
+    /*Отцентровать картинку бэкграунда*/
+    background-position: center;
+    /*Масштабирование под разрешение экрана*/
+    background-size: cover;
+    /*Процент отображаемого бэкграунда*/
+    height: 100vh;
+    /*Цвет шрифта*/
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    /*картинка бэкграунда*/
+    background-image: url("../../assets/LowCristalCave.jpg");
+    /*Команда, чтобы картинка не повторялась, а растягивалась*/
+    background-repeat: no-repeat;
+    /*Отцентровать картинку бэкграунда*/
+    background-position: center;
+    /*Масштабирование под разрешение экрана*/
+    background-size: cover;
+
+}
+
+.title {
+    text-align: center;
+    margin-top: 150px;
+    line-height: 1.5;
+
+
+}
+
+.h_title {
+
+    Font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Grandstander', cursive;
+
+}
+
+.h_slogan {
+    font-size: 30px;
+}
+
+
+.ArrowCont {
+
+
+    min-width: 100%;
+    min-height: 100px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    margin: 0 auto
+
+
+}
+
+
+.arrow {
+    left: 49.5%;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    transform: rotate(135deg);
+}
+
+.arrow::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    /*толщина крыльев стрелочки*/
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: 0.2s ease;
+    display: block;
+    transform-origin: 100% 0;
+}
+
+.arrow:after {
+    content: "";
+    float: left;
+    position: relative;
+    top: -106%;
+    width: 100%;
+    height: 100%;
+    /*толщина ножки стрелочки*/
+    border-width: 0 8px 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transform-origin: 100% 0;
+    transition: 0.2s ease;
+}
+
+.arrow:hover::after {
+    transform: rotate(45deg);
+    border-color: #249bd7;
+    height: 120%;
+}
+
+.arrow:hover::before {
+    border-color: #249bd7;
+    transform: scale(0.8);
+}
+
+
+.mushrooms {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.mushroom-title:hover {
+    list-style-type: none;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+.mushroom-title {
+    font-size: 24px;
+    text-decoration: none;
+    color: orange;
+    list-style-type: none;
+}
+
+.mushrooms-title {
+    font-size: 46px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: olivedrab;
+}
+
+
+.mushroom-info {
+    text-align: center
+
+}
+
+.mushrooms-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mushroom-item {
+    width: calc(33% - 10px);
+    max-width: 100%;
+    min-width: 380px;
+    text-decoration: none;
+}
+
+.mushroom-item img {
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    min-width: 233px;
+
+}
+
+.mushroom-title-ru {
+
+    color: orange;
+
+}

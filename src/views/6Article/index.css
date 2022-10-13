@@ -1,0 +1,158 @@
+main {
+    display: flex;
+min-height: 100vh;
+    font-size: 16px;
+    scroll-padding-top: 83px;
+
+
+
+    text-align: center;
+    flex-direction: column;
+}
+
+.TitleArticlePage{
+color: white;
+    font-size: 60px;
+    margin-top: 130px;
+
+}
+.TitleCont{
+    margin: 15px 0px 100px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.TitleCont img {
+    width: 850px;
+}
+.TableOfContents {
+padding-top: 70px;
+    flex-direction: column;
+    align-items: start;
+display: flex;
+    color: white;
+    font-size: 50px;
+    width: 200px;
+}
+.TableOfContents a {
+text-align: center;
+    flex-direction: column;
+    align-items: start;
+display: flex;
+font-size: 40px;
+    text-decoration: none;
+    color: chocolate;
+    margin-top: 10px;
+}
+
+.TableOfContents a:hover{
+    text-decoration: underline;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px 0px 200px;
+
+}
+.columns {
+
+min-width: 270px;
+    margin: 0px 50px 0px 50px;
+    color: #FFFFFF;
+    text-align: justify;
+    word-break: break-all;
+}
+@media (max-width: 1359px){
+.TitleCont{
+    flex-direction: column;
+}
+    .TableOfContents{
+        margin-left: 100px;
+    }
+    .TitleCont img {
+        margin-top: 60px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.columns{
+    min-width: 250px;
+}
+}
+@media (max-width: 1023px){
+   article{
+flex-direction: column;
+
+   }
+    .columns{
+        max-width: 400px;
+    margin-top: 50px;
+        margin-left: auto;
+    margin-right: auto;
+    }
+.TitleCont img{
+    width: 740px;
+}
+@media (max-width: 853px){
+    .TitleCont img{
+    width: 600px;
+}
+}
+
+
+
+}
+@media (max-width: 639px) {
+    .TitleCont img{
+    width: 479px;
+}
+
+    article {
+        margin: 0px 100px 0px 100px;
+    }
+}
+@media (max-width: 767px){
+   .ImgCenter{
+ width: 479px;
+   }
+
+
+}
+@media (max-width: 539px){
+.TableOfContents{
+    margin-left: 40px;
+}
+    .TitleCont img{
+    width: 370px;
+}
+    .ImgCenter{
+ width: 370px;
+   }
+
+
+}
+@media (max-width: 479px){
+article {
+    margin: 0px 50px 0px 50px;
+}
+}
+
+.ImgCenter {
+    margin: 0px 0px 100px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 740px;
+}
+.ImgCenterCont{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}

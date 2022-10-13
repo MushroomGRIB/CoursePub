@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:padding-top="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Грибы</title>
+  <!--Для корректного отображения в старых браузерах-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Отображаем страницу в масштабе 100%-->
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--Нормализуем стили https://cdnjs.com/libraries/normalize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!--Прикрепляем CSS файл к html файлу-->
+  <link rel="stylesheet" href="../../index.css">
+  <link rel="stylesheet" href="index.css">
+  <!--Добавление favicon (картинка на вкладке)-->
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/favicon/mushroomFavicon.ico">
+  <!--стили с сайта https://fonts.google.com-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+
+</head>
+<body>
+<header>
+  <div class='HeaderTop' style='background-color: rgba(99, 6, 156, 0.4)'>
+
+    <div class='HeadTopCont'>
+      <a href='https://t.me/MushroomGRlB' class='HeaderLogo'>
+        <img src='../../assets/logo.jpg' height='55' alt='logo'></a>
+      <div class='HeaderMenu'>
+        <div class='MenuIcon'>
+          <span></span>
+        </div>
+        <nav class='MenuBody'>
+          <!--В этой строчке мы убрали точки рядом с ссылками-->
+          <ul class='MenuList' style="list-style:none">
+            <li><a href='../7contactsPage/index.html' class='MenuLink'>Контакты</a>
+              <span class='MenuArrow'></span>
+              <ul class='MenuSubList' style="list-style:none">
+                <li>
+                  <a href='https://github.com/MushroomGRIB' class='MenuSubLink'>GitHub</a>
+                </li>
+                <li>
+                  <a href='https://t.me/MushroomGRlB' class='MenuSubLink'>Telegram</a>
+                </li>
+              </ul>
+            <li><a href='index.html' class='MenuLink'>Entoloma Hochstetteri</a></li>
+            <li><a href='../2GallerySwapOnKlickImgJS/index.html' class='MenuLink'>Chlorophos Mycena</a></li>
+            <li><a href='../3OptTaskGameJS/index.html' class='MenuLink'>Mushroom Hunter</a></li>
+            <li><a href='../4Any/index.html' class='MenuLink'>Laccaria Amethystina</a></li>
+            <li><a href='../5OptTaskAnimJS/index.html' class='MenuLink'>Walking Mushroom</a></li>
+            <li><a href='../6Article/index.html' class='MenuLink'>Rhodotus Palmatus</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a href='../home/index.html' class='HeaderHome'>
+        <img src='../../assets/home.png' height='50px' alt='home'></a>
+    </div>
+  </div>
+</header>
+<main>
+  <h1 class='Title'>Entoloma Hochstetteri</h1>
+  <div class='ImgCont'>
+    <a class='ImgLink' id='OpenImage' href='assets/EntolomaHochstetteri1.jpg'>
+      <img id='change_image' class="Image"
+           src='assets/EntolomaHochstetteri1.jpg' alt='Image'></a>
+  </div>
+  <div class='ButtonsCont'>
+    <button onclick="go_to_left()" class="buttonsImg">Показать предыдущую</button>
+    <button onclick="go_to_right()" class="buttonsImg" style="float: right;">Показать следующую</button>
+  </div>
+</main>
+<footer>
+  <div class="footer-column">
+    first col
+  </div>
+  <div class="footer-column">
+
+    <div class="social github">
+      <a href="https://github.com/MushroomGRIB" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+    </div>
+    <div class="social telegram">
+      <a href="https://t.me/MushroomGRlB" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+    </div>
+    Контакты
+  </div>
+  <div class="footer-column">
+    three col
+  </div>
+</footer>
+<!--Прикрепляем JS файл к html файлу-->
+<script src='../../index.js'></script>
+<script src='index.js'></script>
+</body>
+</html>

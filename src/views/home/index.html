@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:padding-top="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Грибы</title>
+  <!--Для корректного отображения в старых браузерах-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Отображаем страницу в масштабе 100%-->
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--Нормализуем стили https://cdnjs.com/libraries/normalize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!--Прикрепляем CSS файл к html файлу-->
+  <link rel="stylesheet" href="../../index.css">
+  <link rel="stylesheet" href="index.css">
+  <!--Добавление favicon (картинка на вкладке)-->
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/favicon/mushroomFavicon.ico">
+  <!--стили с сайта https://fonts.google.com-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+
+</head>
+
+<body>
+
+<!--**********************
+
+HEADER
+
+************************-->
+
+<header>
+  <div class='HeaderTop' style='background-color: rgba(99, 6, 156, 0.4)'>
+    <div class='HeadTopCont'>
+      <a href='https://t.me/MushroomGRlB' class='HeaderLogo'>
+        <img src='../../assets/logo.jpg' height='55' alt='logo'></a>
+      <div class='HeaderMenu'>
+        <div class='MenuIcon'>
+          <span></span>
+        </div>
+        <nav class='MenuBody'>
+          <!--В этой строчке мы убрали точки рядом с ссылками-->
+          <ul class='MenuList' style="list-style:none">
+            <li><a href='../7contactsPage/index.html' class='MenuLink'>Контакты</a>
+              <span class='MenuArrow'></span>
+              <ul class='MenuSubList' style="list-style:none">
+                <li>
+                  <a href='https://github.com/MushroomGRIB' class='MenuSubLink'>GitHub</a>
+                </li>
+                <li>
+                  <a href='https://t.me/MushroomGRlB' class='MenuSubLink'>Telegram</a>
+                </li>
+              </ul>
+            <li><a href='../1GallerySwapOnKlickButtonsJS/index.html' class='MenuLink'>Entoloma Hochstetteri</a></li>
+            <li><a href='../2GallerySwapOnKlickImgJS/index.html' class='MenuLink'>Chlorophos Mycena</a></li>
+            <li><a href='../3OptTaskGameJS/index.html' class='MenuLink'>Mushroom Hunter</a></li>
+            <li><a href='../4Any/index.html' class='MenuLink'>Laccaria Amethystina</a></li>
+            <li><a href='../5OptTaskAnimJS/index.html' class='MenuLink'>Walking Mushroom</a></li>
+            <li><a href='../6Article/index.html' class='MenuLink'>Rhodotus Palmatus</a></li>
+
+          </ul>
+        </nav>
+      </div>
+      <a href='index.html' class='HeaderHome'>
+        <img src='../../assets/home.png' height='50px' alt='home'></a>
+    </div>
+  </div>
+  <div class='title'>
+    <h1 class="h_title"> Грибной сайт</h1>
+    <div class="h_slogan"> Используем HTML и CSS3</div>
+  </div>
+  <div class='ArrowCont'>
+
+    <a aria-label='Кнопка "к содержимому"' href='#main' class="arrow">
+    </a></div>
+</header>
+<!--**********************
+
+INFO
+
+************************-->
+<main id='main'>
+  <div class="container .container_1">
+    <section class="mushrooms">
+      <h2 class="mushrooms-title">
+        <span style="color: red;">С</span><span style="color:orange;">п</span><span
+              style="color: yellow;">и</span><span style="color: green;">с</span><span
+              style="color: aqua;">о</span><span style="color: blue;">к</span>
+        <span style="color: violet;">г</span><span style="color: red;">р</span><span
+              style="color: orange;">и</span><span style='color: yellow;'>б</span><span
+              style='color: green;'>о</span><span style='color: aqua;'>в</span>
+
+
+      </h2>
+      <!-- Первый гриб-->
+      <div class='mushrooms-wrapper' style="list-style:none">
+        <div class='mushroom-item'>
+          <a href='assets/EntolomaHochstetteri.jpg'>
+            <img src='assets/EntolomaHochstetteri.jpg' alt='Небесно-голубой гриб'></a>
+          <div class='mushroom-info'>
+            <li><a href='../1GallerySwapOnKlickButtonsJS/index.html' class='mushroom-title'>
+              Entoloma Hochstetteri</a>
+            </li>
+            <div class='mushroom-title-ru'>
+              Небесно-голубой гриб
+            </div>
+          </div>
+        </div>
+        <!-- Второй гриб-->
+        <div class='mushroom-item'>
+          <a href='assets/ChlorophosMycena.jpg'>
+            <img src="assets/ChlorophosMycena.jpg" alt='Люминесцентный гриб'></a>
+          <div class="mushroom-info">
+            <div><a href="../2GallerySwapOnKlickImgJS/index.html" class="mushroom-title">
+              Chlorophos Mycena</a>
+            </div>
+            <div class="mushroom-title-ru">
+              Люминесцентный гриб
+            </div>
+          </div>
+        </div>
+        <!-- Третий гриб-->
+        <div class="mushroom-item">
+          <a href="assets/mushroomHunter.jpg">
+            <img src="assets/mushroomHunter.jpg" alt='гриб охотник'></a>
+          <div class="mushroom-info">
+            <li><a href="../3OptTaskGameJS/index.html" class="mushroom-title">
+              Mushroom Hunter</a>
+            </li>
+            <div class="mushroom-title-ru">
+              Гриб охотник
+            </div>
+          </div>
+        </div>
+        <!-- Четвёртый гриб-->
+        <div class="mushroom-item">
+          <a href="assets/LaccariaAmethystina.jpg">
+            <img src="assets/LaccariaAmethystina.jpg" alt='Лаковица аметистовая'></a>
+          <div class="mushroom-info">
+            <li><a href='../4Any/index.html' class="mushroom-title">
+              Laccaria Amethystina</a>
+            </li>
+            <div class="mushroom-title-ru">
+              Лаковица аметистовая
+            </div>
+          </div>
+        </div>
+        <!-- Пятый гриб-->
+        <div class="mushroom-item">
+          <a href="assets/WalkingMushroom.png">
+            <img src="assets/WalkingMushroom.png" alt='Ходячий гриб'></a>
+          <div class="mushroom-info">
+            <li><a href="../5OptTaskAnimJS/index.html" class="mushroom-title">
+              Walking Mushroom</a>
+            </li>
+            <div class="mushroom-title-ru">
+              Ходячий гриб
+            </div>
+          </div>
+        </div>
+        <!-- Шестой гриб-->
+        <div class="mushroom-item">
+          <a href="assets/RhodotusPalmatus.png">
+            <img src="assets/RhodotusPalmatus.png" alt='Родотус дланевидный'></a>
+          <div class="mushroom-info">
+            <li><a href="../6Article/index.html" class="mushroom-title">
+              Rhodotus Palmatus</a>
+            </li>
+            <div class="mushroom-title-ru">
+              Родотус дланевидный
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</main>
+<!--**********************
+
+FOOTER
+
+************************-->
+<footer>
+  <div class="footer-column">
+    first col
+  </div>
+
+  <div class="footer-column">
+    <div class="social github">
+      <a href="https://github.com/MushroomGRIB" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+    </div>
+
+
+    <div class="social telegram">
+      <a href="https://t.me/MushroomGRlB" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+    </div>
+    Контакты
+  </div>
+  <div class="footer-column">
+    three col
+  </div>
+</footer>
+<!--Прикрепляем JS файл к html файлу-->
+<script src='../../index.js'></script>
+<script src='index.js'></script>
+</body>
+</html>
+
+

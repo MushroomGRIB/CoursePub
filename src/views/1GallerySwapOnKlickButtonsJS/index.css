@@ -1,12 +1,11 @@
-html {
-    max-height: 100%;
-}
+
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    overflow: hidden
 }
 
 .Title {
@@ -38,7 +37,6 @@ main {
 
 .buttonsImg {
     border-radius: 20px;
-
     margin: 0px 100px 0px 100px;
     height: 70px;
     width: 365px;

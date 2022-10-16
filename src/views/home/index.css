@@ -29,7 +29,7 @@ body {
 
 header {
     /* Цвет бэкграунда, без картинки*/
-    background: aqua;
+    background: darkslateblue;
     /*картинка бэкграунда*/
     background-image: url("assets/ForestSun.jpg");
     /*Команда, чтобы картинка не повторялась, а растягивалась*/
